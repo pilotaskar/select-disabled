@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select-disabled</title>
+</head>
+<body>
+
+    <style>
+
+        input[type=text] :disabled{
+            background: red;
+        }
+
+        input[type=text] :enabled{
+            background: aqua;
+        }
+    </style>
+
+    <!-- Mine is not workign -->
+
+
+
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname"><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" min="18" max="70" id="age"><br><br>
+
+    <label for="name2">Husband/wife name</label>
+    <input type="text"  id="name2" disabled>
+
+
+
+
+
+    
+</body>
+</html>
