@@ -4,42 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Select-disabled</title>
+    <title>Disabled</title>
 </head>
 <body>
 
     <style>
-
-        input[type="text"] :disabled{
+        input[type="text"]:disabled{
             background-color: red;
-        }
-
-        input[type="text"] :enabled{
-            background: aqua;
+            color: white;
         }
     </style>
 
-    <!-- Mine is not working -->
+    <label for="disable"></label>
+    <input type="text" value="This is disabled input" disabled>
 
-
-
-
-    <label for="name">Name:</label>
-    <input type="text" id="name"><br><br>
-
-    <label for="surname">Surname:</label>
-    <input type="text" id="surname"><br><br>
-
-    <label for="age">Age:</label>
-    <input type="number" min="18" max="70" id="age"><br><br>
-
-    <label for="name2">Husband/wife name</label>
-    <input type="text"  id="name2" disabled>
-
-
-
-
-
+    <p>You can't write inside of box. Because it's disabled. But how i styled disabled input, see my code</p>
     
 </body>
 </html>
